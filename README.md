@@ -1,6 +1,6 @@
-# Kitty Adventure Assets
+# Kitty Adventure Resource
 
-**Kitty Adventure Assets** repository contains all the necessary files for the "Kitty Adventure" game. This includes images, sounds, and music that are required to run the game.
+**Kitty Adventure Resource** repository contains all the necessary files for the "Kitty Adventure" game. This includes images, sounds, and music that are required to run the game.
 
 ## Asset List
 
