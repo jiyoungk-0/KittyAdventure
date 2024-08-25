@@ -13,7 +13,7 @@
 ## Screenshots
 Here is a screenshot from the game:
 
-![Gameplay Screenshot](https://github.com/jiyoungk-0/KittyAdventure/blob/assets/Demo%20Screen%20Shot.png)
+![Gameplay Screenshot](https://github.com/jiyoungk-0/KittyAdventure/blob/resource/Demo%20Screen%20Shot.png)
 *Gameplay Screenshot*
 
 ## Installation
