@@ -212,8 +212,9 @@ while running:
                     meats = create_random_items(2, meat_image, meats_rects, hearts_rects + monsters_rects)  # Spawn new meats
                     monsters = create_random_items(1, monster_image, monsters_rects, hearts_rects + meats_rects)  # Spawn new monster
                     level_display_time = pygame.time.get_ticks()  # Record the time when the level changed
-                    if level >= 10:
+                    if level > 10:
                         game_won = True  # Set game won flag
+                        level_display_time = 0  # Reset level display time to avoid showing level up message
             new_meats.append(meat_rect)
         meats = new_meats
 
@@ -280,8 +281,8 @@ while running:
     # If game won, display message
     if game_won:
         win_text = font.render("You Win!", True, (0, 255, 0))
-        display_surface.blit(win_text, (window_width // 2 - win_text.get_width() // 2, window_height // 2 - win_text.get_height() // 2))
         reset_text = font_small.render("Press SPACE to restart", True, (255, 255, 255))
+        display_surface.blit(win_text, (window_width // 2 - win_text.get_width() // 2, window_height // 2 - win_text.get_height() // 2))
         display_surface.blit(reset_text, (window_width // 2 - reset_text.get_width() // 2, window_height // 2 + 40))
 
         # Wait for space key press to reset the game
@@ -293,3 +294,4 @@ while running:
 
     pygame.display.update()
     pygame.time.Clock().tick(30)
+
