@@ -1,4 +1,4 @@
-# Kitty Adventure Resource
+# 📁 Kitty Adventure Resource
 
 **Kitty Adventure Resource** repository contains all the necessary files for the "Kitty Adventure" game. This includes images, sounds, and music that are required to run the game.
 
