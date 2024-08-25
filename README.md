@@ -4,7 +4,7 @@
 
 ## Resource List
 
-The following assets are included in this repository:
+The following resources are included in this repository:
 
 - **Images**:
   - `background-1.png`: Background image for the game.
@@ -20,10 +20,10 @@ The following assets are included in this repository:
 
 ## Usage
 
-1. **Download the Assets**: Download or clone this repository to access the asset files.
-2. **Include in Project**: Place the downloaded asset files in the `assets/` directory of your project.
-3. **Update References**: Ensure your game code correctly references the paths to these asset files.
+1. **Download the Resource**: Download or clone this repository to access the asset files.
+2. **Include in Project**: Place the downloaded asset files in the `resource/` directory of your project.
+3. **Update References**: Ensure your game code correctly references the paths to these resource files.
 
 ## Contributing
 
-If you have additional assets or improvements, feel free to open a pull request or contact the project maintainers.
+If you have additional resources or improvements, feel free to open a pull request or contact the project maintainers.
